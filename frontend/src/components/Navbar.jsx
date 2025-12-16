@@ -3,9 +3,14 @@ import {assets}from '../assets/assets';
 
 const Navbar = () => {
   return (
-    <div>
-      <img src={assets.logo} alt="Logo" />
-    </div>
+  <div className="">
+  <img
+    src={assets.logo}
+    alt="Logo"
+    className="bg-white p-2 rounded"
+  />
+</div>
+
   )
 };
 
