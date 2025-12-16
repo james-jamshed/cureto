@@ -1,11 +1,12 @@
 import { memo } from 'react';
+import {assets}from '../assets/assets';
 
 const Navbar = () => {
   return (
     <div>
-      <h2>Navbar</h2>
+      <img src={assets.logo} alt="Logo" />
     </div>
-  );
+  )
 };
 
 export default memo(Navbar);
