@@ -7,11 +7,11 @@ import Doctor from './pages/Doctor.jsx';
 import Login from './pages/Login.jsx';
 import MyProfile from './pages/MyProfile.jsx';
 import MyAppointment from './pages/MyAppointment.jsx';
-import Navbar from './components/Navbar.jsx';
+import {NavbarDemo} from './components/Navbar.jsx';
 export const App = memo(() => {
   return (
     <div className='mx-4 sm:mx-[10%]'>
-      <Navbar />
+      <NavbarDemo />
 
       <Routes>
         <Route path='/' element={<Home />} />
