@@ -199,7 +199,7 @@ export const NavbarLogo = () => {
         src={assets.logo}
         alt="logo"
         width={150}
-        height={60}/>
+        height={60} />
       <span className="font-medium text-black dark:text-white">Startup</span>
     </a>
   );
